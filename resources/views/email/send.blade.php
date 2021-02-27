@@ -71,7 +71,12 @@
                text-transform: capitalize;'>Subject:
             </b>&nbsp;{{ $data['subject'] }}
          </p>
-        <p style="text-align: center"><b class="h2">Message</b></p>
+        <p style="text-align: center">
+            <b class="h2" style='
+               font-family: "Lato", sans-serif;
+               font-size: 1.4rem;'>Message
+            </b>
+         </p>
         <p class="first-letter" style='text-transform: capitalize;'> {{ $data['message'] }}</p>
       </div>
       <div class="thanks-message" style='
